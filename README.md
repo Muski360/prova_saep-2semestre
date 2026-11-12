@@ -113,6 +113,3 @@ Um tutor pode ter vários pets; cada pet pertence a um tutor e pode ter vários 
 - `sistema/src/Models`: consultas e gravação.
 - `sistema/src/Views`: telas PHP e HTML.
 - `sistema/src/Core`: conexão, sessão, roteador, criptografia e validações.
-- `sistema/tests/verificar.py`: verificação dos fluxos HTTP e do banco.
-
-Com o banco importado e o servidor ligado, execute `py sistema/tests/verificar.py` na pasta principal (requer Python 3 e PHP). Os registros temporários do teste são removidos ao terminar. Para conferir expiração manualmente, reduza `session_timeout`, aguarde o prazo e acesse uma rota protegida; depois restaure `900`.
